@@ -2,7 +2,7 @@ const express = require ("express")
 const cors = require ("cors") //es para habilitar el intercambio de recursos entre servidor y cliente de origen cruzado
 const postRouter = require ("./routes/postRouter.js")
 const app = express()  //se guarda en app todas las funciones de express
-const port = 3300
+const port = 3030
 
 const db = require ("./data/db.js")
 
